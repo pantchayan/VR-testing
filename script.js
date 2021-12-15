@@ -118,7 +118,7 @@ renderer.render(scene, camera);
 //   requestAnimationFrame(animate);
 // };
 
-requestAnimationFrame(animate);
+// requestAnimationFrame(animate);
 
 window.addEventListener("resize", () => {
   dimension.width = window.innerWidth;
