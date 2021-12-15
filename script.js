@@ -109,14 +109,14 @@ renderer.render(scene, camera);
 
 // controls.update();
 
-let animate = (time) => {
-  trees.forEach((tree) => {
-    tree.rotation.y = time * 0.001;
-  });
+// let animate = (time) => {
+//   trees.forEach((tree) => {
+//     tree.rotation.y = time * 0.001;
+//   });
 
-  renderer.render(scene, camera);
-  requestAnimationFrame(animate);
-};
+//   renderer.render(scene, camera);
+//   requestAnimationFrame(animate);
+// };
 
 requestAnimationFrame(animate);
 
