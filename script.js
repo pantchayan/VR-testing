@@ -134,3 +134,9 @@ window.addEventListener("resize", () => {
   renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
   renderer.render(scene, camera);
 });
+
+renderer.setAnimationLoop( function () {
+
+	renderer.render( scene, camera );
+
+} );
